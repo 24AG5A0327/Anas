@@ -1,0 +1,6 @@
+a="ACAAAC"
+b={'A':0,'B':10,'C':15}
+sum=0
+for i in a:
+    sum=sum+b[i]
+print(sum)B

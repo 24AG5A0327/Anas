@@ -1,0 +1,13 @@
+class circle:
+    def __init__(self):
+        x=int(input("Enter Radius"))
+        self.radius=x 
+    def display(self):
+        print("enter num of circles:")
+a=int(input("enter num of circles:"))
+circles=[]
+for i in range(a):
+    c=circle()
+    circles.append(c)
+    c.display()
+    print("")
